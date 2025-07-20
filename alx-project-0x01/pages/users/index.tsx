@@ -5,7 +5,7 @@ import { UserProps } from "@/interfaces";
 interface UsersPageProps {
   users: UserProps[];
 }
-//post.map
+//posts.map
 const Users: React.FC<UsersPageProps> = ({ users }) => {
   return (
     <div className="flex flex-col h-screen">
