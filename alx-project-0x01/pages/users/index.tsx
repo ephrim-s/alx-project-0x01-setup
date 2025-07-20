@@ -1,5 +1,4 @@
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
+import Header from "@/components/layout/Header";
 
 const UsersPage: React.FC = () => {
   return (
@@ -7,9 +6,8 @@ const UsersPage: React.FC = () => {
       <Header />
       <main className="p-8">
         <h1 className="text-4xl mb-4">Users</h1>
-        <p>This is the users page content.</p>
+        <p>This is the Users page.</p>
       </main>
-      <Footer />
     </>
   );
 };
